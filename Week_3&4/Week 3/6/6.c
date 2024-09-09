@@ -17,7 +17,7 @@ int main() {
     delta_num = rand() % (max_num - min_num + 1) + min_num;
 
     printf("alpha %d , beta %d , delta %d \n",alpha_num,beta_num,delta_num);
-    
+    //checking the result
     if (alpha_num > beta_num){
         if ( alpha_num > delta_num){
             printf("alpha %d is the highest \n",alpha_num);
